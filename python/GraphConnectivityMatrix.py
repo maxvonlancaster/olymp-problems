@@ -11,6 +11,8 @@ def matrix_power(a, i):
     print(b)
     return b
 
+
+# calculate the connectivity matrix for graph, given its adjacency matrix a
 a=np.array([[0,1,0,0,1],[1,0,1,0,0],[0,1,0,1,0],[0,0,1,0,1],[1,0,0,1,0]])
 I=np.array([[1,0,0,0,0],[0,1,0,0,0],[0,0,1,0,0],[0,0,0,1,0],[0,0,0,0,1]])
 
@@ -35,17 +37,3 @@ plt.figure(figsize=(10, 10))
 plt.plot(X, Y, '^', color='white', alpha=0.4, markersize = 10.0)
 plt.axis('on')
 plt.show()
-
-# print(a)
-# a1=a.dot(a)
-# a2=np.dot(a,a1)
-# a3=np.dot(a,a2)
-# a5=I+a+a1+a2+a3
-# print('а**2:')
-# print(a1)
-# print('а**3:')
-# print(a2)
-# print('а**4:')
-# print(a3)
-# print('а останнє:')
-# print(a5)
