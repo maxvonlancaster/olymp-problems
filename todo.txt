@@ -1,0 +1,7 @@
+TODO:
+
+1. Language generator 
+2. Fermi paradox solution via negative pop growth index 
+3. nqueens and skyline problems 
+4. same tasks - in other languages 
+5. 
