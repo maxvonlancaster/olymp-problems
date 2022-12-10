@@ -41,5 +41,5 @@ for i in range(n):
 
 print(f'all coeficients : {solutions}, the last one (A_0): {solutions[n-1]}')
 
-c = [[0,10,0,0,1],[1,0,1,0,0],[0,1,9425,1,0],[0,0,1,0,1],[1,0,0,100,0]]
-print(determinant_calc(c))
+# c = [[0,10,0,0,1],[1,0,1,0,0],[0,1,9425,1,0],[0,0,1,0,1],[1,0,0,100,0]]
+# print(determinant_calc(c))
