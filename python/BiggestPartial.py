@@ -1,5 +1,9 @@
 import random
 
+# given the list of numbers, get the biggest partial of two numbers in a list 
+# (i.e. max(a/b), a,b from list);
+# do not use len() method and for loops
+
 # get random list
 def get_list():
     list = []
@@ -9,7 +13,7 @@ def get_list():
     return list
 
 
-# i hate this solution, but it is the best i got so far
+# i hate this solution, but it is the best one i got so far
 list = get_list()
 print(list)
 
@@ -42,6 +46,3 @@ while list_pos:
 print(max_neg)
 print(max_pos)
 print(max(max_pos,max_neg))
-
-
-
