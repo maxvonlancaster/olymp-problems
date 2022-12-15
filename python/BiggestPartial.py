@@ -1,5 +1,6 @@
 import random
 
+# get random list
 def get_list():
     list = []
     n = random.randint(5,20)
@@ -8,6 +9,7 @@ def get_list():
     return list
 
 
+# i hate this solution, but it is the best i got so far
 list = get_list()
 print(list)
 
