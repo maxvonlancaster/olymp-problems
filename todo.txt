@@ -5,3 +5,6 @@ TODO:
 3. nqueens and skyline problems 
 4. same tasks - in other languages 
 5. Telegram bot for discrete mathematics problems and questions
+6. Generating functions modeling 
+7. 
+
