@@ -10,3 +10,6 @@
 # has a y-coordinate 0 and is used to mark the skyline's termination where the rightmost building ends. Any ground between the 
 # leftmost and rightmost buildings should be part of the skyline's contour.
 
+buildings = [[],[],[]]
+countour_points = []
+
