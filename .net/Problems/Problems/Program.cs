@@ -2,5 +2,5 @@
 using Problems.Services;
 
 Console.WriteLine("Hello, World!");
-var service = new LanguageGenerator();
+var service = new Mathematics();
 service.Main();

@@ -25,9 +25,16 @@
             Console.WriteLine("LanguageGenerator");
         }
 
-        public void GenerateSyllables(){ }
+        public void GenerateSyllables()
+        {
 
-        public void GenerateInclination(){ }
+
+        }
+
+        public void GenerateInclination()
+        { 
+            
+        }
 
         
     }
