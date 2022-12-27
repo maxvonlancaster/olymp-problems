@@ -1,4 +1,7 @@
-﻿namespace Problems.Services
+﻿using System;
+using System.Linq;
+
+namespace Problems.Services
 {
     public class LanguageGenerator
     {
@@ -27,13 +30,14 @@
 
         private Dictionary<string, string> _inclinations = new Dictionary<string, string>()
         {
-            {"I", ""},
-            {"You", ""},
-            {"He", ""},
-            {"She", ""},
-            {"It", ""},
-            {"We", ""},
-            {"They", ""}
+            {"I|present", ""},
+            {"You|present", ""},
+            {"He|present", ""},
+            {"She|present", ""},
+            {"It|present", ""},
+            {"We|present", ""},
+            {"They|present", ""},
+            {"prular", ""}
         };
 
         // the idea of it was revealed to me in a dream
@@ -59,6 +63,18 @@
                 }
             }
 
+        }
+
+        public string GetRandomSyllable()
+        {
+            var i = Random.Next(0,3);
+            var syllable = _syllables.EllementAt(i).value[Random.Next(0, _syllables.EllementAt(i).value.Count)];
+            return syllable;
+        }
+
+        public string GetRandomWord()
+        {
+            return "";
         }
 
         public void GenerateInclinationAndPronouns()
