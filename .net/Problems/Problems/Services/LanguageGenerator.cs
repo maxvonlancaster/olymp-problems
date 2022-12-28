@@ -37,7 +37,21 @@ namespace Problems.Services
             {"It|present", ""},
             {"We|present", ""},
             {"They|present", ""},
-            {"prular", ""}
+            {"prular", ""},
+            {"I|past", ""},
+            {"You|past", ""},
+            {"He|past", ""},
+            {"She|past", ""},
+            {"It|past", ""},
+            {"We|past", ""},
+            {"They|past", ""},
+            {"I|future", ""},
+            {"You|future", ""},
+            {"He|future", ""},
+            {"She|future", ""},
+            {"It|future", ""},
+            {"We|future", ""},
+            {"They|future", ""}
         };
 
         // the idea of it was revealed to me in a dream
