@@ -1,6 +1,8 @@
 import time
 
 # unhappy_list = [20, 89, 37, 16, 4, 42, 58, 145]
+# take natural number, sum the squers of its digits, get new number - go on. 
+# sooner or later you either get 1 (happy number) or 42 (unhappy number)
 unhap = []
 hap = []
 
@@ -32,7 +34,7 @@ def calculate_squeres(i):
     return a
 
 start = time.time()
-for i in range(1, 10000001):
+for i in range(1994, 2030):
     res = calculate_squeres(i)
     print(f'{i} : {res} \n')
 
