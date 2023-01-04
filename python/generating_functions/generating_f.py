@@ -1,3 +1,7 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import math
+
 def _function(t):
     return t
 
